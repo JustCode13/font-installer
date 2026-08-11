@@ -1,7 +1,7 @@
 # Font downloader
 
 so one day i was editing, and i needed some different fonts. so i installed them but now the problem was installing them one by one.
-if you are an editor you propbably know this!
+if you are an editor you probably know this!
 so i wrote this code!
 which lets you rapidly install all the fonts!
 
