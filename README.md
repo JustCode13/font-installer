@@ -6,7 +6,7 @@ so i wrote this code!
 which lets you rapidly install all the fonts!
 
 
-1. git clone git@github.com:JustCode13/font-installer.git
+1. git clone [git@github.com:JustCode13/font-installer.git](https://github.com/JustCode13/font-installer.git)
 
 2. And simply run uv run main.py or pip run main.py
 
