@@ -1,23 +1,70 @@
-# Font downloader
+# Font Downloader
 
-so one day i was editing, and i needed some different fonts. so i installed them but now the problem was installing them one by one.
-if you are an editor you probably know this!
-so i wrote this code!
-which lets you rapidly install all the fonts!
+One day I was editing a video and needed a bunch of different fonts.
 
+I downloaded them, but then came the annoying part — installing them **one by one**.
 
-1. git clone [git@github.com:JustCode13/font-installer.git](https://github.com/JustCode13/font-installer.git)
+If you edit videos, you probably know how annoying that gets.
 
-2. And simply run uv run main.py or pip run main.py
+So I made this little tool.
 
-1. Give it the main folder location where you have all your folders with different fonts 
-
-2. Hit scan folder
-
-3. Hit Install Fonts
-
-Reminder: if you have some font already installed, it will simply over write them!
-
-
+It lets you scan a folder containing fonts and install **all of them at once**.
 
 ![Font Folders](images/folders.png)
+
+## How to use
+
+### 1. Clone the repository
+
+```bash
+git clone git@github.com:JustCode13/font-installer.git
+cd font-installer
+```
+
+### 2. Run it
+
+If you're using `uv`:
+
+```bash
+uv run main.py
+```
+
+Or with Python:
+
+```bash
+python main.py
+```
+
+### 3. Select your font folder
+
+The program will ask for the **main folder** containing your fonts.
+
+For example:
+
+```text
+Fonts/
+├── Font Pack 1/
+│   ├── Font1.ttf
+│   └── Font2.otf
+├── Font Pack 2/
+│   ├── Font3.ttf
+│   └── Font4.otf
+└── Font Pack 3/
+    └── Font5.ttf
+```
+
+Just give it the location of the `Fonts` folder.
+
+### 4. Scan the folder
+
+Hit **Scan Folder**.
+
+The program will find the fonts inside the folders.
+
+### 5. Install the fonts
+
+Hit **Install Fonts** and let it do its thing.
+
+That's it. No opening every font file and installing them manually.
+
+> **Note:** If a font is already installed, this program will overwrite it.
