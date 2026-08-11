@@ -1,14 +1,11 @@
 # Font Downloader
 
 One day I was editing a video and needed a bunch of different fonts.
-
 I downloaded them, but then came the annoying part — installing them **one by one**.
-
 If you edit videos, you probably know how annoying that gets.
-
 So I made this little tool.
-
 It lets you scan a folder containing fonts and install **all of them at once**.
+
 
 ![Font Folders](images/folders.png)
 
