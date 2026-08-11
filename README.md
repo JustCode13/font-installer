@@ -20,4 +20,4 @@ Reminder: if you have some font alrady installed, it will simply over write them
 
 
 
-![Font Folders](C:\Users\Tanma\My Stuff\code with tea\projects\for-me\python\font_installer\images\folders ss.png)
+![Font Folders](images/folders.png)
