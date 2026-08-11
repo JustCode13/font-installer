@@ -16,7 +16,7 @@ which lets you rapidly install all the fonts!
 
 3. Hit Install Fonts
 
-Reminder: if you have some font alrady installed, it will simply over write them!
+Reminder: if you have some font already installed, it will simply over write them!
 
 
 
